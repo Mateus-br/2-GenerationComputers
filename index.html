@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.js">
+    <title>Linha do Tempo - Segunda Geração de Computadores</title>
+
+    <!-- Fonte Bonita -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <nav class="navbar">
+        <h1 class="logo">Linha do Tempo</h1>
+
+        <!-- Botão hambúrguer -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Menu -->
+        <ul class="nav-links" id="menu">
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#caracteristicas">Características</a></li>
+            <li><a href="#imagens">Imagens</a></li>
+            <li><a href="#videos">Vídeos</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <!-- INTRODUÇÃO -->
+    <section id="introducao" class="section">
+        <h2>Segunda Geração de Computadores (1956 - 1963)</h2>
+        <p>
+            A segunda geração de computadores marcou a substituição das válvulas pelos transistores, trazendo maior 
+            velocidade, menor consumo de energia e máquinas mais confiáveis.
+        </p>
+    </section>
+
+    <!-- CARACTERÍSTICAS -->
+    <section id="caracteristicas" class="section">
+        <h2>Principais Características</h2>
+        <ul>
+            <li>Uso de transistores no lugar das válvulas.</li>
+            <li>Menor tamanho físico e maior eficiência.</li>
+            <li>Programação em linguagens de alto nível como COBOL e FORTRAN.</li>
+        </ul>
+    </section>
+
+    <!-- ENIAC II -->
+    <section id="ENIAC2" class="section">
+        <h2>ENIAC II</h2>
+        <p>
+            O ENIAC (Electronic Numerical Integrator and Computer) foi o primeiro dispositivo computacional 
+            eletroeletrônico e digital de grande escala, entrando em funcionamento em 1946. Desenvolvido por 
+            John Eckert e John Mauchly, foi criado para calcular trajetórias balísticas durante a Segunda Guerra Mundial.
+        </p>
+        <p>
+            Sua capacidade incluía realizar 5.000 adições, 357 multiplicações ou 38 divisões por segundo — um 
+            desempenho extraordinário para a época. Utilizava cerca de 18.000 válvulas termiônicas e consumia 160 kW 
+            de potência. Seu "sistema operacional" era baseado em cartões perfurados.
+        </p>
+        <p>
+            Embora tenha sido revolucionário, hoje seu poder de processamento é inferior ao de calculadoras simples modernas.
+        </p>
+    </section>
+
+    <!-- IBM 608 -->
+    <section id="IBM608" class="section">
+        <h2>IBM 608</h2>
+        <p>
+            A IBM 608 foi a primeira calculadora comercialmente disponível a utilizar transistores, considerada a 
+            primeira calculadora totalmente transistorizada do mundo. Anunciada em 1955 e lançada em 1957, reduziu 
+            drasticamente o tamanho, o calor e o consumo de energia em comparação às válvulas.
+        </p>
+    </section>
+
+    <!-- CDC 1604 -->
+    <section id="CDC1604" class="section">
+        <h2>CDC 1604</h2>
+        <p>
+            O CDC 1604, lançado em 1959, foi um dos primeiros computadores transistorizados de sucesso comercial e 
+            o primeiro desenvolvido pela Control Data Corporation. Projetado por Seymour Cray, era o computador mais 
+            rápido de sua época e teve grande impacto em áreas militares e científicas.
+        </p>
+
+        <ul>
+            <li><strong>Arquitetura:</strong> 48 bits, instrução única.</li>
+            <li><strong>Tecnologia:</strong> Totalmente baseado em transistores.</li>
+            <li><strong>Desempenho:</strong> O mais rápido do mundo no lançamento.</li>
+            <li><strong>Compatibilidade:</strong> Seu sucessor, o CDC 3600, era compatível.</li>
+            <li><strong>Aplicações:</strong> Navegação militar, previsão do tempo e controle de operações.</li>
+            <li><strong>Software:</strong> Sistema operacional “REAL-TIME SCOPE”.</li>
+            <li><strong>Componentes:</strong> Usava o CDC 160 (12 bits) como processador de E/S.</li>
+        </ul>
+
+        <h3>Legado</h3>
+        <p>
+            O CDC 1604 abriu caminho para o CDC 6600, considerado o primeiro supercomputador moderno. Seu projetista, 
+            Seymour Cray, tornou-se uma das figuras mais importantes da computação de alto desempenho. Um dos 1604 
+            chegou a ser usado pelo Pentágono durante a Crise dos Mísseis de Cuba.
+        </p>
+    </section>
+
+    <!-- LINGUAGENS DE PROGRAMAÇÃO -->
+    <section id="linguagens_programacao" class="section">
+        <h2>Linguagens de Programação</h2>
+        <ul>
+            <li><strong>FORTRAN:</strong> voltada para cálculos científicos e numéricos.</li>
+            <li><strong>COBOL:</strong> criada para processamento de dados comerciais, com sintaxe semelhante ao inglês.</li>
+        </ul>
+    </section>
+
+    <!-- SISTEMAS OPERACIONAIS -->
+    <section id="sistemas_operacionais" class="section">
+        <h2>Primeiros Sistemas Operacionais</h2>
+        <ul>
+            <li><strong>GM-NAA I/O:</strong> Primeiro sistema operacional usado em produção.</li>
+            <li><strong>FMS:</strong> Sistema para programas em FORTRAN.</li>
+            <li><strong>IBSYS:</strong> Sistema operacional da IBM.</li>
+        </ul>
+    </section>
+
+    <!-- IMAGENS -->
+    <section id="imagens" class="section gallery">
+        <h2>Imagens</h2>
+        <div class="image-grid">
+            <figure>
+                <img src="eniac.jpg" alt="ENIAC">
+                <figcaption>ENIAC</figcaption>
+            </figure>
+            <figure>
+                <img src="ibm.png" alt="IBM 608">
+                <figcaption>IBM 608</figcaption>
+            </figure>
+            <figure>
+                <img src="cdc.png" alt="CDC 1604">
+                <figcaption>CDC 1604</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- VÍDEOS -->
+    <section id="videos" class="section">
+        <h2>Vídeo Explicativo</h2>
+        <div class="video-container">
+            <iframe 
+                width="853" height="480"
+                src="https://www.youtube.com/embed/mFdUqqwzbVs"
+                title="HISTÓRIA: A EVOLUÇÃO DOS COMPUTADORES"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            © 2025 - Linha do Tempo dos Computadores | Desenvolvido para fins educacionais. <br>
+            2° Ano do Ensino Médio – Técnico em Informática – Colégio Estadual Góes Calmon
+        </p>
+    </footer>
+
+</body>
+<script>
+function toggleMenu() {
+    document.getElementById("menu").classList.toggle("active");
+    document.querySelector(".hamburger").classList.toggle("open");
+}
+</script>
+</html>
